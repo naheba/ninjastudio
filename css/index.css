@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost&display=swap');
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    position: fixed;
+    border-bottom: 1px solid #ccc;
+    padding: 0em 4em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    top: 0;
+    z-index: 4;
+    max-width: 100%;
+    width: 100%;
+    background-color: #fff;
+}
+
+.logo-titulo {
+    display: flex;
+    align-items: center;
+}
+
+.logo-titulo h1 {
+    font-size: 4.5em;
+    margin: auto;
+    font-family: 'Jost', sans-serif;
+}
+
+.logo-titulo h1 a {
+    text-decoration: none;
+    color: #000;
+}
+
+#logo {
+    max-width: 100px;
+}
+
+.nav {
+    margin: 0em 8em;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0em 1em 0em 1em;
+}
+
+nav li a {
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: bolder;
+    color: #FF0163;
+    font-family: 'Jost', sans-serif;
+}
+
+main {
+    margin-top: 105px;
+}
+
+.proximamente {
+    margin: 0px auto;
+    max-width: 100%;
+    width: 100%;
+}
+
+.imagen img {
+    width: 100%;
+    filter: brightness(0.4);
+}
+
+.proximamente {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+
+/*Texto encima*/
+
+.proximamente .contenido {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.proximamente .contenido h1 {
+    line-height: 70px;
+    max-width: 5em;
+    margin: 0px auto;
+    align-content: center;
+    color: white;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 6em;
+    z-index: 1;
+}
+
+.proximamente .contenido p {
+    line-height: 25px;
+    padding-top: 40px;
+    max-width: 32em;
+    margin: 0px auto;
+    align-content: center;
+    color: white;
+    text-align: center;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.3em;
+    z-index: 1;
+}
+
+.proximamente .contenido a {
+    margin: 0px auto;
+    border: none;
+    border-radius: .2em;
+    padding: .4em 1em .5em 1em;
+    background-color: #3082E7;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2em;
+    margin-top: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.proximamente .contenido span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+.formulario {
+    background-color: #DB1246;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin: 2.5em 0em;
+}
+
+.container input {
+    width: 100%;
+    padding: .8em 10em .8em .5em;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    border-radius: .4em;
+    font-family: 'Jost', sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+form button {
+    background-color: #3082E7;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: .3em;
+    padding: .4em 1em .5em 1em;
+    font-family: 'Jost', sans-serif;
+    font-size: 1.2em;
+    margin: 8px 0;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+.nosotros {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0px auto;
+}
+
+.nosotros div {
+    max-width: 60em;
+    margin: 2em 0em;
+}
+
+.nosotros h2 {
+    font-family: 'Jost', sans-serif;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.nosotros p {
+    font-family: 'Jost', sans-serif;
+    font-size: 1.25em;
+}
+
+.nosotros span {
+    font-style: italic;
+    font-weight: bold;
+}
+
+footer {
+    margin-top: auto;
+    width: 100%;
+    height: fit-content;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    color: white;
+    font-family: 'Jost', sans-serif;
+}
+
+.redes ul {
+    list-style: none;
+    display: flex;
+}
+
+.redes ul li {
+    margin: 0em 1em;
+}
+
+.redes a {
+    color: white;
+}
